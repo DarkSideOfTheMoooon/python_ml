@@ -1,0 +1,10 @@
+all questions are from https://www.deep-ml.com/problems
+
+todos:
+
+1, learn about the matrix shape in neuron, fc, attention, rnn
+2, build a con3d with a bild actual size 256 256 * 3 pooling, fc 
+3, learn tranformer again on the page
+https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34/
+https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch
+4, try build these models with torch.nn
