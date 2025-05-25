@@ -21,3 +21,15 @@ def residual_block(x: np.ndarray, w1: np.ndarray, w2: np.ndarray) -> np.ndarray:
 	x += np.matmul(x,w2)
 	x = relu(x)
 	return x
+
+# 残差连接应该是在两层权重和激活后，
+# 把原始输入加到输出上，然后再做一次 ReLU。
+def residual_block(x: np.ndarray, w1: np.ndarray, w2: np.ndarray) -> np.ndarray:
+    shortcut = x.copy()
+    out = np.matmul(x, w1)
+    out = relu(out)
+    out = np.matmul(out, w2)
+    out = relu(out)
+    out += shortcut
+    out = relu(out)
+    return out
