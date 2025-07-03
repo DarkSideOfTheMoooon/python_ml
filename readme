@@ -93,7 +93,7 @@ more to come: decision tree  sensor fusion ...
 * **Tags**: AlexNet引爆深度学习革命
 * **Year**: 2012
 
-*Yolo
+Redmon et al. (2016) – YOLO	Real-time object detection (one-stage)
 
 
 * **Title**: Generative Adversarial Nets
@@ -113,6 +113,14 @@ more to come: decision tree  sensor fusion ...
 Scarselli, F., et al. (2009). "The Graph Neural Network Model"
 
 CNN RNN LSTM..
+
+
+Generative Models
+
+Goodfellow et al. (2014) – GANs	Generative Adversarial Networks	Enabled photorealistic image synthesis
+Ho et al. (2020) – Diffusion Models	Denoising-based generation	Powers Stable Diffusion/DALL·E
+Ramesh et al. (2021) – DALL·E	Text-to-image with CLIP guidance	Democratized AI art generation
+
 
 #Reinforcement Learning
 
@@ -137,11 +145,20 @@ CNN RNN LSTM..
 
 #NLP
 
+
+
+Mikolov et al. (2013) – Word2Vec
+
+
 * **Title**: Attention Is All You Need
 * **Authors**: Vaswani, A., et al.
 * **Link**: 
 * **Tags**: Transformer架构开创
 * **Year**: 2017
+
+
+Devlin et al. (2018) – BERT	Bidirectional pre-training for NLP	Set 11 SOTA benchmarks
+
 
 * **Title**: Language Models are Few-Shot Learners
 * **Authors**: Brown, T., et al. 
@@ -153,6 +170,7 @@ Touvron, H., et al. (2023).
 "LLaMA: Open and Efficient Foundation Language Models"
 贡献：开源高效LLM设计，推动社区发展。
 
+理论突破
 
 Neural Tangent Kernel (2018)
 
@@ -160,12 +178,21 @@ Jacot, A., et al. (2018).
 "Neural Tangent Kernel: Convergence and Generalization in Neural Networks"
 贡献：从理论角度解释宽神经网络的训练动态。
 
-
 Batch Norm (2015)
 
 Ioffe, S. & Szegedy, C. (2015).
 "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
 贡献：提出批归一化，大幅加速深度网络训练。
+
+Lift-Splat-Shoot (2020)
+
+Ho et al. (2020) – Diffusion Models	Probabilistic generative modeling	Power Stable Diffusion, Midjourney
+Diffusion models for depth estimation
+
+Quantization + distillation
+
+Zhang et al. (2017) – "Understanding DL Requires Rethinking Generalization"
+
 
 
 #5. 多模态Foundation Model与AGI探索（2020s）
@@ -183,6 +210,8 @@ Radford, A., et al. (2021).
 
 BLIP
 
+TimeSformer: Video Understanding
+Is Space-Time Attention All You Need for Video?" (ICML 2021)
 
 * **Title**: Zero-Shot Text-to-Image Generation
 * **Authors**: Ramesh, A., et al. 
@@ -203,7 +232,7 @@ BLIP
 * **Year**: 2021
 
 
-# Applications in autonomous driving
+# Applications in autonomous driving move to in another folder
 
 物体检测（Object Detection）
 1. 摄像头（Camera）主导的算法
@@ -214,8 +243,21 @@ YOLOv8 (2023)：Ultralytics团队最新版本，速度和精度平衡
 DETR (2020)：Facebook提出，首个完全基于Transformer的端到端检测模型
 论文：Carion et al. "End-to-End Object Detection with Transformers"
 
+
+Vision Transformer (ViT)
+
+Data-Efficient ViT Variants
+Training Data-efficient Image Transformers through Distillation" (ICML 2021)
 Swin Transformer (2021)：微软提出的分层视觉Transformer
 论文：Liu et al. "Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows"
+
+
+Self-Supervised Vision Transformers
+Emerging Properties in Self-Supervised Vision Transformers"
+DINO: Self-Distillation with No Labels 
+
+Masked Autoencoders Are Scalable Vision Learners" (CVPR 2022)
+MAE: Masked Autoencoding for ViTs
 
 3D目标检测（单目/多目）
 
@@ -224,6 +266,10 @@ BEVFormer (2022)：鸟瞰图视角下的多摄像头融合检测
 
 PETR (2022)：3D位置编码的纯Transformer方案
 *论文：Liu et al. "PETR: Position Embedding Transformation for Multi-View 3D Object Detection"*
+
+PETRv2 (CVPR 2023)
+论文：Liu et al. "PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images"
+
 
 2. 激光雷达（LiDAR）主导的算法
 点云检测
@@ -260,6 +306,8 @@ DeepFusion (2022)：多模态特征动态加权
 论文：Xu et al. "DeepFusion: A Robust and Modular 3D Object Detector for Lidars and Cameras"
 
 4D融合（时序+多模态）
+
+"FUTR3D: A Unified Sensor Fusion Framework for 3D Detection"（2022）
 
 BEVFusion (2022)：支持激光雷达、摄像头、毫米波雷达的统一BEV框架
 论文：Liu et al. "BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation"
