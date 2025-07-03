@@ -8,3 +8,283 @@ todos:
 https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34/
 https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch
 4, try build these models with torch.nn
+
+
+# Important Papers
+
+# 1. Foundation（1950s-1960s）
+
+* **Title**: Computing Machinery and Intelligence
+* **Authors**: Turing, A.M.
+* **Link**: 
+* **Tags**: 提出"图灵测试"，奠定AI哲学基础
+* **Year**: 1950
+
+* **Title**: A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence
+* **Authors**: McCarthy, J., et al. 
+* **Link**: 
+* **Tags**: 首次提出"Artificial Intelligence"术语
+* **Year**: 1955
+
+* **Title**: The Perceptron: A Probabilistic Model for Information Storage and Organization
+* **Authors**: McCarthy, J., et al. 
+* **Link**: 
+* **Tags**: 感知机模型的开创性工作
+* **Year**: 1958
+
+# 2. 符号主义与专家系统（1970s-1980s）
+
+* **Title**: Computer Science as Empirical Inquiry
+* **Authors**: Newell, A. & Simon, H. 
+* **Link**: 
+* **Tags**: 物理符号系统假说，符号AI奠基
+* **Year**: 1976
+
+* **Title**: The Art of Artificial Intelligence: Themes and Case Studies of Knowledge Engineering
+* **Authors**: Feigenbaum, E. 
+* **Link**: 
+* **Tags**: 专家系统理论开创
+* **Year**: 1977
+
+* **Title**: A Robust Layered Control System for a Mobile Robot
+* **Authors**: Brooks, R. 
+* **Link**: 
+* **Tags**: 提出"包容架构"，影响机器人学
+* **Year**: 1986
+
+#3. 机器学习革命（1990s-2000s）
+
+* **Title**: The Nature of Statistical Learning Theory
+* **Authors**: Vapnik, V.  
+* **Link**: 
+* **Tags**: SVM理论奠基
+* **Year**: 1995
+
+
+* **Title**: Support-Vector Networks
+* **Authors**: Cortes, C. & Vapnik, V.  
+* **Link**: 
+* **Tags**: SVM算法实现
+* **Year**: 1995
+
+
+* **Title**: Random Forests
+* **Authors**: Breiman, L.  
+* **Link**: 
+* **Tags**: 随机森林算法提出
+* **Year**: 2001
+
+* **Title**: A Fast Learning Algorithm for Deep Belief Nets
+* **Authors**: Hinton, G., et al. 
+* **Link**: 
+* **Tags**: 深度学习复兴的关键论文
+* **Year**: 2006
+
+more to come: decision tree  sensor fusion ...
+
+#4. 深度学习时代（2010s）
+
+
+#Computer Vision
+
+* **Title**: ImageNet Classification with Deep Convolutional Neural Networks
+* **Authors**: Krizhevsky, A., et al. 
+* **Link**: 
+* **Tags**: AlexNet引爆深度学习革命
+* **Year**: 2012
+
+*Yolo
+
+
+* **Title**: Generative Adversarial Nets
+* **Authors**: Goodfellow, I., et al.
+* **Link**:  开创生成对抗网络框架，推动图像生成领域革命。
+* **Tags**: Resnet
+* **Year**: 2014
+
+* **Title**: Deep Residual Learning for Image Recognition
+* **Authors**: He, K., et al. 
+* **Link**: 
+* **Tags**: Resnet
+* **Year**: 2015
+
+
+图神经网络：
+Scarselli, F., et al. (2009). "The Graph Neural Network Model"
+
+CNN RNN LSTM..
+
+#Reinforcement Learning
+
+* **Title**: Human-level Control Through Deep Reinforcement Learning
+* **Authors**: Mnih, V., et al. 
+* **Link**: 
+* **Tags**: 首次将DQN应用于Atari游戏，实现端到端学习
+* **Year**: 2015
+
+* **Title**: Mastering the Game of Go with Deep Neural Networks and Tree Search
+* **Authors**: Silver, D., et al.  
+* **Link**: 
+* **Tags**: AlphaGo核心技术
+* **Year**: 2016
+
+* **Title**: Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
+* **Authors**: Silver, D., et al.  
+* **Link**: 
+* **Tags**: AlphaZero  通用棋类AI框架，无需人类先验知识。
+* **Year**: 2017
+
+
+#NLP
+
+* **Title**: Attention Is All You Need
+* **Authors**: Vaswani, A., et al.
+* **Link**: 
+* **Tags**: Transformer架构开创
+* **Year**: 2017
+
+* **Title**: Language Models are Few-Shot Learners
+* **Authors**: Brown, T., et al. 
+* **Link**: 
+* **Tags**: GPT-3论文
+* **Year**: 2020
+
+Touvron, H., et al. (2023).
+"LLaMA: Open and Efficient Foundation Language Models"
+贡献：开源高效LLM设计，推动社区发展。
+
+
+Neural Tangent Kernel (2018)
+
+Jacot, A., et al. (2018).
+"Neural Tangent Kernel: Convergence and Generalization in Neural Networks"
+贡献：从理论角度解释宽神经网络的训练动态。
+
+
+Batch Norm (2015)
+
+Ioffe, S. & Szegedy, C. (2015).
+"Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
+贡献：提出批归一化，大幅加速深度网络训练。
+
+
+#5. 多模态Foundation Model与AGI探索（2020s）
+
+Diffusion Models (2020)
+
+Ho, J., et al. (2020).
+"Denoising Diffusion Probabilistic Models"
+贡献：推动扩散模型成为图像生成主流方法（如Stable Diffusion）。
+
+CLIP (2021)
+Radford, A., et al. (2021).
+"Learning Transferable Visual Models From Natural Language Supervision"
+贡献：实现图像-文本跨模态对齐，支撑DALL·E等模型
+
+BLIP
+
+
+* **Title**: Zero-Shot Text-to-Image Generation
+* **Authors**: Ramesh, A., et al. 
+* **Link**: 
+* **Tags**: DALL·E论文
+* **Year**: 2021
+
+* **Title**: On the Opportunities and Risks of Foundation Models
+* **Authors**: Bommasani, R., et al. 
+* **Link**: 
+* **Tags**: 基础模型理论探讨
+* **Year**: 2021
+
+* **Title**: GPT-4 Technical Report
+* **Authors**: Bommasani, R., et al. 
+* **Link**: 
+* **Tags**: 基础模型理论探讨
+* **Year**: 2021
+
+
+# Applications in autonomous driving
+
+物体检测（Object Detection）
+1. 摄像头（Camera）主导的算法
+基于CNN的2D检测
+
+YOLOv8 (2023)：Ultralytics团队最新版本，速度和精度平衡
+
+DETR (2020)：Facebook提出，首个完全基于Transformer的端到端检测模型
+论文：Carion et al. "End-to-End Object Detection with Transformers"
+
+Swin Transformer (2021)：微软提出的分层视觉Transformer
+论文：Liu et al. "Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows"
+
+3D目标检测（单目/多目）
+
+BEVFormer (2022)：鸟瞰图视角下的多摄像头融合检测
+论文：Li et al. "BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers"
+
+PETR (2022)：3D位置编码的纯Transformer方案
+*论文：Liu et al. "PETR: Position Embedding Transformation for Multi-View 3D Object Detection"*
+
+2. 激光雷达（LiDAR）主导的算法
+点云检测
+
+PointPillars (2019)：将点云转为伪图像加速处理
+论文：Lang et al. "PointPillars: Fast Encoders for Object Detection from Point Clouds"
+
+CenterPoint (2021)：基于中心点的3D检测框架
+*论文：Yin et al. "Center-based 3D Object Detection and Tracking"*
+
+PV-RCNN (2020)：结合点云与体素特征的最优方案之一
+*论文：Shi et al. "PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection"*
+
+
+二、语义分割（Semantic Segmentation）
+BEV分割
+
+BEVSegFormer (2022)：基于Transformer的鸟瞰图分割
+论文：Li et al. "BEVSegFormer: Bird's Eye View Semantic Segmentation From Arbitrary Camera Rigs"
+
+Occupancy Networks (2022)：通用占据栅格预测
+论文：Tsinghua团队 "OccNet: Occupancy Networks for Autonomous Driving"
+
+
+三、多传感器融合（Sensor Fusion）
+前融合（Early Fusion）
+
+TransFusion (2022)：LiDAR与Camera的Transformer融合
+*论文：Bai et al. "TransFusion: Robust LiDAR-Camera Fusion for 3D Object Detection with Transformers"*
+
+后融合（Late Fusion）
+
+DeepFusion (2022)：多模态特征动态加权
+论文：Xu et al. "DeepFusion: A Robust and Modular 3D Object Detector for Lidars and Cameras"
+
+4D融合（时序+多模态）
+
+BEVFusion (2022)：支持激光雷达、摄像头、毫米波雷达的统一BEV框架
+论文：Liu et al. "BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation"
+
+四、目标跟踪（Tracking）
+多目标跟踪（MOT）
+
+ByteTrack (2022)：通过低分检测框提升跟踪连续性
+论文：Zhang et al. "ByteTrack: Multi-Object Tracking by Associating Every Detection Box"
+
+QDTrack (2021)：基于查询机制的跨帧关联
+论文：Zhou et al. "QDTrack: Quasi-Dense Similarity Learning for Appearance-Guided Multiple Object Tracking"
+
+五、前沿趋势（2023）
+UniAD (CVPR 2023最佳论文)：首个端到端统一感知决策框架
+论文：Hu et al. "Planning-oriented Autonomous Driving"
+
+Vision-Centric BEV：纯视觉BEV方案（如Tesla Occupancy Networks）
+
+大模型赋能：
+
+语言模型辅助决策（如DriveGPT）
+
+视觉基础模型（如SAM for Auto-driving）
+
+
+
+
